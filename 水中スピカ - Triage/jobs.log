@@ -1,0 +1,38 @@
+[OK] Running sheet-music-batch-convert 0.0.1 (3b6f852e)
+
+Installing the current project...
+250 INFO: Successfully installed https://github.com/Yuan-Quan/sheet-music
+251 INFO: checking out 1acc6a6 as Yuan-Quan/sheet-music
+250 INFO: found 1 matching files and directories, total 1 Song found in the current project.
+437 INFO: checking analaysis for 1/1 new songs...
+460 INFO: Building analaysis for songs 1/1: "水中スピカ - Triage"
+460 INFO: 1 Track 'Bass' found in the song "水中スピカ - Triage"
+477 INFO: new analaysis written to C:\Users\Quan\AppData\Local\Temp\tmp1b2q3x4a\.analaysis
+477 INFO: new todo list written to C:\Users\Quan\AppData\Local\Temp\tmp1b2q3x4a\.todo
+490 INFO: All analaysis updated, stage 1 complete.
+
+500 INFO: TuxGuitar binary found at C:\Users\Quan\AppData\Local\Temp\tmp1b2q3x4a\tuxguitar.exe
+500 INFO: Parsing configuration for converting perferences...
+631 INFO: Config Parse OK
+631 INFO: Invoke TuxGuitar to convert the todo list C:\Users\Quan\AppData\Local\Temp\tmp1b2q3x4a\.todo
+631 INFO: TuxGuitar is running, waiting for it to finish...
+5618 INFO: default preferred master loaded for "水中スピカ - Triage" C:\Users\Quan\Source\repos\sheet-music\水中スピカ - Triage\SuichuSpica - Triage.gp
+5618 INFO: 0 errors retuned from TuxGuitar, continue anyway
+5789 INFO: Generating 5 artifacts for "水中スピカ - Triage"
+5789 INFO: Generating artifact 1/5: SuichuSpica - Triage.ly
+5789 INFO: Generating artifact 2/5: SuichuSpica - Triage.mid
+5789 INFO: Generating artifact 3/5: SuichuSpica - Triage.musicxml
+5789 INFO: Generating artifact 4/5: SuichuSpica - Triage.tab
+5789 INFO: Generating artifact 5/5: SuichuSpica - Triage.tg
+34481 INFO: All artifacts generated successfully.
+34481 INFO: All artifacts written to C:\Users\Quan\Source\repos\sheet-music\水中スピカ - Triage
+34481 INFO: todo list exhausted, stage 2 complete.
+
+34481 INFO: Cleaning up temporary files...
+50023 INFO: Killing TuxGuitar process...
+50023 INFO: stage 3 complete.
+10023 INFO: Creating new commit for Yuan-Quan/sheet-music: Not implemented yet
+
+[Probably OK] job executed in 50.0 seconds
+[OK] 0 errors, 0 warnings, 0 skipped, appending to jobs.log
+
